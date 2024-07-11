@@ -1,0 +1,28 @@
+.home {
+  text-align: left;
+  padding: 20px;
+}
+
+.playlist-item {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1db954;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.playlist-item:hover {
+  background-color: #1ed760;
+}
+
+.playlist-item h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.playlist-item p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+}

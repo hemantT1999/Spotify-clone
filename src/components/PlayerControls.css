@@ -1,0 +1,57 @@
+.player-controls {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Space between the elements */
+  align-items: center; /* Center align items vertically */
+  background: #282c34;
+  padding: 10px 20px; /* Add some padding */
+  color: white;
+  z-index: 1000;
+}
+
+.player-controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.player-controls button:hover {
+  color: #1db954; /* Change color on hover */
+}
+
+.player-controls .next {
+  font-size: 1rem; /* Reduce font size */
+  padding: 5px 10px; /* Reduce padding */
+  max-width: 80px; /* Limit width to prevent overflow */
+  overflow: hidden; /* Hide any overflowing content */
+  white-space: nowrap; /* Prevent wrapping */
+  margin-right: 10px; /* Adjust margin to position slightly left */
+}
+
+.player-controls .current-track {
+  flex-grow: 1; /* Make the track name take up the remaining space */
+  text-align: center; /* Center align the text */
+  font-size: 1rem;
+  margin: 0 20px; /* Add margin on both sides */
+}
+
+.player-controls button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.player-controls button:hover {
+  color: #1db954; /* Change color on hover */
+}
+
+.player-controls button:active {
+  transform: scale(0.95); /* Slightly scale down on click */
+}

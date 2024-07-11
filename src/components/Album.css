@@ -1,0 +1,20 @@
+.album {
+  text-align: left;
+  padding: 20px;
+}
+
+.album h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.album ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.album li {
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+  font-size: 1rem;
+}
